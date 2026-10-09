@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class IT26102709Lab3Q1A{
+public static void main(String[] args){
+	Scanner input = new Scanner(System.in);
+	
+	System.out.print("Enter the price of 1kg of rice:");
+	double price = input.nextDouble();
+	System.out.print("Enter the number of kilograms you want to buy:");
+	double amount = input.nextDouble();
+	
+	double sum = price * amount;
+	
+	System.out.println("The amount you have to pay is:"+sum);
+	input.close();
+}
+}
